@@ -6,6 +6,15 @@ body {
 
 header {
   padding: 20px;
+  background-color: #222222;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  height: 100vh;
+  padding: 1rem;
 }
 
 button {

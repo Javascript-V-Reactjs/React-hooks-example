@@ -6,9 +6,9 @@ function Button(props) {
     return (
         <button 
             onClick={toggleTheme} 
-            className={`${theme}-theme`}
+            className='dark-theme'
         >
-            Switch Theme
+            {theme === "light" ? "🌙" : "☀️"}
         </button>
     )    
 }

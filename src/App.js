@@ -3,12 +3,13 @@ import "./index.css"
 
 import Header from "./Header"
 import Button from "./Button"
+import Body from "./Body"
 
 function App() {
     return (
         <div>
             <Header />
-            <Button />
+            <Body />
         </div>
     )
 }
